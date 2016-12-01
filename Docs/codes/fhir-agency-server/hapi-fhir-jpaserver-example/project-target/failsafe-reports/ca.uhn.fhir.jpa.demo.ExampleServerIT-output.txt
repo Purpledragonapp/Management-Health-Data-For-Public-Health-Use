@@ -1,0 +1,318 @@
+2016-11-27 20:22:46.861 [main] INFO  ca.uhn.fhir.util.VersionUtil [VersionUtil.java:52] HAPI FHIR version is: 2.0
+2016-11-27 20:22:46.889 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU2]
+2016-11-27 20:22:46.892 [main] INFO  ca.uhn.fhir.jpa.demo.ExampleServerIT [ExampleServerIT.java:59] Project base path is: /home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example
+2016-11-27 20:22:47.433 [main] INFO  org.eclipse.jetty.util.log [Log.java:186] Logging initialized @1708ms
+2016-11-27 20:22:47.714 [main] INFO  org.eclipse.jetty.server.Server [Server.java:345] jetty-9.3.10.v20160621
+2016-11-27 20:22:48.273 [main] INFO  o.e.j.w.StandardDescriptorProcessor [StandardDescriptorProcessor.java:279] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2016-11-27 20:22:48.318 [main] INFO  / [ContextHandler.java:2162] Initializing Spring root WebApplicationContext
+2016-11-27 20:22:48.319 [main] INFO  o.s.web.context.ContextLoader [ContextLoader.java:305] Root WebApplicationContext: initialization started
+2016-11-27 20:22:48.477 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext [AbstractApplicationContext.java:581] Refreshing Root WebApplicationContext: startup date [Sun Nov 27 20:22:48 UTC 2016]; root of context hierarchy
+2016-11-27 20:22:48.571 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext [AnnotationConfigWebApplicationContext.java:227] Successfully resolved class for [ca.uhn.fhir.jpa.demo.FhirServerConfig]
+2016-11-27 20:22:52.379 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean [LocalContainerEntityManagerFactoryBean.java:334] Building JPA container EntityManagerFactory for persistence unit 'HAPI_PU'
+2016-11-27 20:22:52.424 [main] INFO  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [
+	name: HAPI_PU
+	...]
+2016-11-27 20:22:52.667 [main] INFO  org.hibernate.Version [Version.java:37] HHH000412: Hibernate Core {5.1.0.Final}
+2016-11-27 20:22:52.669 [main] INFO  org.hibernate.cfg.Environment [Environment.java:213] HHH000206: hibernate.properties not found
+2016-11-27 20:22:52.678 [main] INFO  org.hibernate.cfg.Environment [Environment.java:317] HHH000021: Bytecode provider name : javassist
+2016-11-27 20:22:52.765 [main] INFO  o.h.annotations.common.Version [JavaReflectionManager.java:66] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-11-27 20:22:54.548 [main] INFO  org.hibernate.dialect.Dialect [Dialect.java:156] HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2016-11-27 20:22:56.067 [main] INFO  o.h.validator.internal.util.Version [Version.java:30] HV000001: Hibernate Validator 5.2.4.Final
+2016-11-27 20:22:56.487 [main] INFO  org.hibernate.search.engine.Version [Version.java:26] HSEARCH000034: Hibernate Search 5.5.4.Final
+2016-11-27 20:22:57.377 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_FORCED_ID
+2016-11-27 20:22:57.391 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_FORCED_ID
+2016-11-27 20:22:57.471 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_HISTORY_TAG
+2016-11-27 20:22:57.481 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_HISTORY_TAG
+2016-11-27 20:22:57.513 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RES_LINK
+2016-11-27 20:22:57.516 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RES_LINK
+2016-11-27 20:22:57.561 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RES_TAG
+2016-11-27 20:22:57.563 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RES_TAG
+2016-11-27 20:22:57.589 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RES_VER
+2016-11-27 20:22:57.591 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RES_VER
+2016-11-27 20:22:57.652 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RESOURCE
+2016-11-27 20:22:57.662 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_RESOURCE
+2016-11-27 20:22:57.701 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SEARCH
+2016-11-27 20:22:57.705 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SEARCH
+2016-11-27 20:22:57.741 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SEARCH_INCLUDE
+2016-11-27 20:22:57.746 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SEARCH_INCLUDE
+2016-11-27 20:22:57.770 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SEARCH_RESULT
+2016-11-27 20:22:57.779 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SEARCH_RESULT
+2016-11-27 20:22:57.812 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_COORDS
+2016-11-27 20:22:57.815 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_COORDS
+2016-11-27 20:22:57.851 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_DATE
+2016-11-27 20:22:57.853 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_DATE
+2016-11-27 20:22:57.887 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_NUMBER
+2016-11-27 20:22:57.890 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_NUMBER
+2016-11-27 20:22:57.924 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_QUANTITY
+2016-11-27 20:22:57.925 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_QUANTITY
+2016-11-27 20:22:57.961 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_STRING
+2016-11-27 20:22:57.964 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_STRING
+2016-11-27 20:22:57.990 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_TOKEN
+2016-11-27 20:22:57.993 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_TOKEN
+2016-11-27 20:22:58.030 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_URI
+2016-11-27 20:22:58.032 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SPIDX_URI
+2016-11-27 20:22:58.068 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SUBSCRIPTION
+2016-11-27 20:22:58.069 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SUBSCRIPTION
+2016-11-27 20:22:58.095 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SUBSCRIPTION_FLAG_RES
+2016-11-27 20:22:58.105 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_SUBSCRIPTION_FLAG_RES
+2016-11-27 20:22:58.131 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_TAG_DEF
+2016-11-27 20:22:58.135 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: HFJ_TAG_DEF
+2016-11-27 20:22:58.170 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CODESYSTEM
+2016-11-27 20:22:58.172 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CODESYSTEM
+2016-11-27 20:22:58.208 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CODESYSTEM_VER
+2016-11-27 20:22:58.210 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CODESYSTEM_VER
+2016-11-27 20:22:58.239 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CONCEPT
+2016-11-27 20:22:58.240 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CONCEPT
+2016-11-27 20:22:58.273 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CONCEPT_PC_LINK
+2016-11-27 20:22:58.276 [main] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl [InformationExtractorJdbcDatabaseMetaDataImpl.java:365] HHH000262: Table not found: TRM_CONCEPT_PC_LINK
+2016-11-27 20:23:00.700 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator [QueryTranslatorFactoryInitiator.java:47] HHH000397: Using ASTQueryTranslatorFactory
+2016-11-27 20:23:01.020 [main] INFO  o.h.s.s.impl.DirectoryProviderHelper [DirectoryProviderHelper.java:149] HSEARCH000041: Index directory not found, creating: 'target/lucenefiles'
+2016-11-27 20:23:01.021 [main] INFO  o.h.s.s.impl.DirectoryProviderHelper [DirectoryProviderHelper.java:149] HSEARCH000041: Index directory not found, creating: 'target/lucenefiles/ca.uhn.fhir.jpa.entity.ResourceTable'
+2016-11-27 20:23:01.299 [main] INFO  o.h.s.s.impl.DirectoryProviderHelper [DirectoryProviderHelper.java:149] HSEARCH000041: Index directory not found, creating: 'target/lucenefiles/ca.uhn.fhir.jpa.entity.ResourceIndexedSearchParamString'
+2016-11-27 20:23:01.324 [main] INFO  o.h.s.s.impl.DirectoryProviderHelper [DirectoryProviderHelper.java:149] HSEARCH000041: Index directory not found, creating: 'target/lucenefiles/ca.uhn.fhir.jpa.entity.TermConcept'
+2016-11-27 20:23:01.513 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:382] Initialized JPA EntityManagerFactory for persistence unit 'HAPI_PU'
+2016-11-27 20:23:01.676 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU2]
+2016-11-27 20:23:04.123 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU1]
+2016-11-27 20:23:04.140 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU2_HL7ORG]
+2016-11-27 20:23:04.152 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU3]
+2016-11-27 20:23:12.138 [main] INFO  o.s.s.c.ScheduledExecutorFactoryBean [ExecutorConfigurationSupport.java:165] Initializing ExecutorService  'scheduledExecutorService'
+2016-11-27 20:23:12.493 [main] INFO  o.s.web.context.ContextLoader [ContextLoader.java:345] Root WebApplicationContext: initialization completed in 24174 ms
+2016-11-27 20:23:12.603 [scheduledExecutorService-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:217] SQL Warning Code: 10000, SQLState: 01J01
+2016-11-27 20:23:12.606 [main] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU2]
+2016-11-27 20:23:12.607 [scheduledExecutorService-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:218] Database 'directory:target/jpaserver_derby_files' not created, connection made to existing database instead.
+2016-11-27 20:23:12.609 [scheduledExecutorService-5] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:217] SQL Warning Code: 10000, SQLState: 01J01
+2016-11-27 20:23:12.610 [scheduledExecutorService-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:217] SQL Warning Code: 10000, SQLState: 01J01
+2016-11-27 20:23:12.611 [scheduledExecutorService-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:217] SQL Warning Code: 10000, SQLState: 01J01
+2016-11-27 20:23:12.616 [scheduledExecutorService-5] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:218] Database 'directory:target/jpaserver_derby_files' not created, connection made to existing database instead.
+2016-11-27 20:23:12.616 [scheduledExecutorService-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:218] Database 'directory:target/jpaserver_derby_files' not created, connection made to existing database instead.
+2016-11-27 20:23:12.616 [scheduledExecutorService-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:218] Database 'directory:target/jpaserver_derby_files' not created, connection made to existing database instead.
+2016-11-27 20:23:12.631 [scheduledExecutorService-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:217] SQL Warning Code: 10000, SQLState: 01J01
+2016-11-27 20:23:12.631 [scheduledExecutorService-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:218] Database 'directory:target/jpaserver_derby_files' not created, connection made to existing database instead.
+2016-11-27 20:23:12.634 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:751] Initializing HAPI FHIR restful server running in DSTU2 mode
+2016-11-27 20:23:13.694 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1069] Added 97 resource provider(s). Total 97
+2016-11-27 20:23:13.696 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.AccountResourceProvider
+2016-11-27 20:23:13.776 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.AllergyIntoleranceResourceProvider
+2016-11-27 20:23:13.788 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.AppointmentResourceProvider
+2016-11-27 20:23:13.792 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.AppointmentResponseResourceProvider
+2016-11-27 20:23:13.799 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.AuditEventResourceProvider
+2016-11-27 20:23:13.808 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.BasicResourceProvider
+2016-11-27 20:23:13.812 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.BinaryResourceProvider
+2016-11-27 20:23:13.818 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.BodySiteResourceProvider
+2016-11-27 20:23:13.823 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.BundleResourceProvider
+2016-11-27 20:23:13.833 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.CarePlanResourceProvider
+2016-11-27 20:23:13.841 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ClaimResourceProvider
+2016-11-27 20:23:13.849 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ClaimResponseResourceProvider
+2016-11-27 20:23:13.856 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ClinicalImpressionResourceProvider
+2016-11-27 20:23:13.859 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.CommunicationResourceProvider
+2016-11-27 20:23:13.861 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.CommunicationRequestResourceProvider
+2016-11-27 20:23:13.874 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.CompositionResourceProvider
+2016-11-27 20:23:13.878 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ConceptMapResourceProvider
+2016-11-27 20:23:13.888 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ConditionResourceProvider
+2016-11-27 20:23:13.891 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ConformanceResourceProvider
+2016-11-27 20:23:13.901 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ContractResourceProvider
+2016-11-27 20:23:13.905 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.CoverageResourceProvider
+2016-11-27 20:23:13.914 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DataElementResourceProvider
+2016-11-27 20:23:13.916 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DetectedIssueResourceProvider
+2016-11-27 20:23:13.924 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DeviceResourceProvider
+2016-11-27 20:23:13.926 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DeviceComponentResourceProvider
+2016-11-27 20:23:13.927 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DeviceMetricResourceProvider
+2016-11-27 20:23:13.932 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DeviceUseRequestResourceProvider
+2016-11-27 20:23:13.936 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DeviceUseStatementResourceProvider
+2016-11-27 20:23:13.941 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DiagnosticOrderResourceProvider
+2016-11-27 20:23:13.944 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DiagnosticReportResourceProvider
+2016-11-27 20:23:13.950 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DocumentManifestResourceProvider
+2016-11-27 20:23:13.953 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.DocumentReferenceResourceProvider
+2016-11-27 20:23:13.965 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.EligibilityRequestResourceProvider
+2016-11-27 20:23:13.966 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.EligibilityResponseResourceProvider
+2016-11-27 20:23:13.969 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.EncounterResourceProvider
+2016-11-27 20:23:13.971 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.EnrollmentRequestResourceProvider
+2016-11-27 20:23:13.975 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.EnrollmentResponseResourceProvider
+2016-11-27 20:23:13.981 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.EpisodeOfCareResourceProvider
+2016-11-27 20:23:13.986 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ExplanationOfBenefitResourceProvider
+2016-11-27 20:23:13.990 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.FamilyMemberHistoryResourceProvider
+2016-11-27 20:23:13.995 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.FlagResourceProvider
+2016-11-27 20:23:13.998 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.GoalResourceProvider
+2016-11-27 20:23:13.999 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.GroupResourceProvider
+2016-11-27 20:23:14.009 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.HealthcareServiceResourceProvider
+2016-11-27 20:23:14.015 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ImagingObjectSelectionResourceProvider
+2016-11-27 20:23:14.025 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ImagingStudyResourceProvider
+2016-11-27 20:23:14.027 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ImmunizationResourceProvider
+2016-11-27 20:23:14.029 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ImmunizationRecommendationResourceProvider
+2016-11-27 20:23:14.031 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ImplementationGuideResourceProvider
+2016-11-27 20:23:14.033 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ListResourceResourceProvider
+2016-11-27 20:23:14.036 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.LocationResourceProvider
+2016-11-27 20:23:14.042 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MediaResourceProvider
+2016-11-27 20:23:14.044 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MedicationResourceProvider
+2016-11-27 20:23:14.049 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MedicationAdministrationResourceProvider
+2016-11-27 20:23:14.051 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MedicationDispenseResourceProvider
+2016-11-27 20:23:14.058 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MedicationOrderResourceProvider
+2016-11-27 20:23:14.061 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MedicationStatementResourceProvider
+2016-11-27 20:23:14.066 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.MessageHeaderResourceProvider
+2016-11-27 20:23:14.068 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.NamingSystemResourceProvider
+2016-11-27 20:23:14.075 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.NutritionOrderResourceProvider
+2016-11-27 20:23:14.076 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ObservationResourceProvider
+2016-11-27 20:23:14.082 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.OperationDefinitionResourceProvider
+2016-11-27 20:23:14.084 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.OperationOutcomeResourceProvider
+2016-11-27 20:23:14.089 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.OrderResourceProvider
+2016-11-27 20:23:14.096 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.OrderResponseResourceProvider
+2016-11-27 20:23:14.099 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.OrganizationResourceProvider
+2016-11-27 20:23:14.105 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ParametersResourceProvider
+2016-11-27 20:23:14.107 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.PatientResourceProvider
+2016-11-27 20:23:14.114 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.PaymentNoticeResourceProvider
+2016-11-27 20:23:14.116 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.PaymentReconciliationResourceProvider
+2016-11-27 20:23:14.117 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.PersonResourceProvider
+2016-11-27 20:23:14.123 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.PractitionerResourceProvider
+2016-11-27 20:23:14.132 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ProcedureResourceProvider
+2016-11-27 20:23:14.174 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ProcedureRequestResourceProvider
+2016-11-27 20:23:14.176 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ProcessRequestResourceProvider
+2016-11-27 20:23:14.177 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ProcessResponseResourceProvider
+2016-11-27 20:23:14.179 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ProvenanceResourceProvider
+2016-11-27 20:23:14.182 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.QuestionnaireResourceProvider
+2016-11-27 20:23:14.187 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.QuestionnaireResponseResourceProvider
+2016-11-27 20:23:14.189 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ReferralRequestResourceProvider
+2016-11-27 20:23:14.191 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.RelatedPersonResourceProvider
+2016-11-27 20:23:14.198 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.RiskAssessmentResourceProvider
+2016-11-27 20:23:14.199 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ScheduleResourceProvider
+2016-11-27 20:23:14.205 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SearchParameterResourceProvider
+2016-11-27 20:23:14.207 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SlotResourceProvider
+2016-11-27 20:23:14.211 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SpecimenResourceProvider
+2016-11-27 20:23:14.220 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.StructureDefinitionResourceProvider
+2016-11-27 20:23:14.222 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SubscriptionResourceProvider
+2016-11-27 20:23:14.224 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SubstanceResourceProvider
+2016-11-27 20:23:14.228 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SupplyDeliveryResourceProvider
+2016-11-27 20:23:14.229 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SupplyRequestResourceProvider
+2016-11-27 20:23:14.234 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.SupportingDocumentationResourceProvider
+2016-11-27 20:23:14.240 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.TestResourceProvider
+2016-11-27 20:23:14.242 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.TestScriptResourceProvider
+2016-11-27 20:23:14.243 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.UserResourceProvider
+2016-11-27 20:23:14.244 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.ValueSetResourceProvider
+2016-11-27 20:23:14.257 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.rp.dstu2.VisionPrescriptionResourceProvider
+2016-11-27 20:23:14.258 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:1076] Added 1 plain provider(s). Total {}
+2016-11-27 20:23:14.258 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.provider.JpaSystemProviderDstu2
+2016-11-27 20:23:14.262 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.provider.dstu2.ServerProfileProvider
+2016-11-27 20:23:14.262 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.jpa.provider.JpaConformanceProviderDstu2
+2016-11-27 20:23:14.280 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:284] Scanning type for RESTful methods: class ca.uhn.fhir.rest.server.PageProvider
+2016-11-27 20:23:14.282 [main] INFO  c.uhn.fhir.rest.server.RestfulServer [RestfulServer.java:804] A FHIR has been lit on this server
+2016-11-27 20:23:14.323 [main] INFO  / [ContextHandler.java:2162] Initializing Spring FrameworkServlet 'spring'
+2016-11-27 20:23:14.324 [main] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:489] FrameworkServlet 'spring': initialization started
+2016-11-27 20:23:14.326 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext [AbstractApplicationContext.java:581] Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Sun Nov 27 20:23:14 UTC 2016]; parent: Root WebApplicationContext
+2016-11-27 20:23:14.333 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext [AnnotationConfigWebApplicationContext.java:227] Successfully resolved class for [ca.uhn.fhir.jpa.demo.FhirTesterConfig]
+2016-11-27 20:23:15.263 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:354] Mapped URL path [/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-27 20:23:15.268 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:354] Mapped URL path [/fa/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-27 20:23:15.269 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:354] Mapped URL path [/fonts/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-27 20:23:15.270 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:354] Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-27 20:23:15.270 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:354] Mapped URL path [/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-27 20:23:15.344 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:534] Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Sun Nov 27 20:23:14 UTC 2016]; parent: Root WebApplicationContext
+2016-11-27 20:23:15.471 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/delete]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionDelete(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.472 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/update]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionUpdate(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/about]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionAbout(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.474 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/conformance]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionConformance(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.475 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/create]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionCreate(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.476 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/get-tags]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionGetTags(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.477 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/history-server]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionHistoryServer(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.477 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/history-type]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionHistoryType(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.477 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/ || /home]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionHome(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/page]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionPage(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/read]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionRead(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/resource]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionResource(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.ResourceRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/search]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionSearch(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap) throws java.io.IOException
+2016-11-27 20:23:15.479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/transaction]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionTransaction(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.TransactionRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.480 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:537] Mapped "{[/validate]}" onto public java.lang.String ca.uhn.fhir.to.Controller.actionValidate(javax.servlet.http.HttpServletRequest,ca.uhn.fhir.to.model.HomeRequest,org.springframework.validation.BindingResult,org.springframework.ui.ModelMap)
+2016-11-27 20:23:15.573 [main] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:508] FrameworkServlet 'spring': initialization completed in 1248 ms
+2016-11-27 20:23:15.573 [main] INFO  o.e.j.server.handler.ContextHandler [ContextHandler.java:781] Started o.e.j.w.WebAppContext@62109320{/,file:///home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example/target/hapi-fhir-jpaserver-example/,AVAILABLE}
+2016-11-27 20:23:15.650 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:270] Started ServerConnector@498cf1dc{HTTP/1.1,[http/1.1]}{0.0.0.0:40474}
+2016-11-27 20:23:15.651 [main] INFO  org.eclipse.jetty.server.Server [Server.java:403] Started @29925ms
+2016-11-27 20:23:16.206 [main] INFO  ca.uhn.fhir.util.XmlUtil [DependencyLogImpl.java:75] FHIR XML procesing will use StAX implementation 'Woodstox XML-processor' version '4.4.1'
+2016-11-27 20:23:16.264 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:76] Client request: POST http://localhost:40474/baseDstu2/Patient HTTP/1.1
+2016-11-27 20:23:16.270 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:81] Client request headers:
+Accept-Charset: utf-8
+Accept: application/xml+fhir
+User-Agent: HAPI-FHIR/2.0 (FHIR Client; FHIR 1.0.2/DSTU2; apache)
+Accept-Encoding: gzip
+Content-Type: application/xml+fhir; charset=UTF-8
+2016-11-27 20:23:16.271 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:88] Client request body:
+<Patient xmlns="http://hl7.org/fhir"><name><family value="testCreateResourceConditional"/></name></Patient>
+2016-11-27 20:23:16.706 [qtp1131645570-13] INFO  ca.uhn.fhir.jpa.dao.BaseHapiFhirDao [BaseHapiFhirDao.java:1314] Saving history entry Patient/1/_history/1
+2016-11-27 20:23:16.857 [qtp1131645570-13] INFO  c.u.f.j.dao.BaseHapiFhirResourceDao [BaseHapiFhirResourceDao.java:391] Successfully created resource "Patient/1/_history/1" in 278ms
+2016-11-27 20:23:17.229 [qtp1131645570-13] INFO  c.u.f.n.BaseThymeleafNarrativeGenerator [BaseThymeleafNarrativeGenerator.java:148] Initializing narrative generator
+2016-11-27 20:23:17.823 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:102] Client response: HTTP 201 Created
+2016-11-27 20:23:17.824 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:118] Client response headers:
+date: Sun, 27 Nov 2016 20:23:16 GMT
+last-modified: Sun, 27 Nov 2016 20:23:16 GMT
+server: Jetty(9.3.10.v20160621)
+transfer-encoding: chunked
+x-powered-by: HAPI FHIR 2.0 REST Server (FHIR Server; FHIR 1.0.2/DSTU2)
+content-location: http://localhost:40474/baseDstu2/Patient/1/_history/1
+etag: W/"1"
+location: http://localhost:40474/baseDstu2/Patient/1/_history/1
+content-type: application/xml+fhir;charset=utf-8
+2016-11-27 20:23:17.825 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:134] Client response body:
+<OperationOutcome xmlns="http://hl7.org/fhir">
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h1>Operation Outcome</h1>
+         <table border="0">
+            <tr>
+               <td style="font-weight: bold;">information</td>
+               <td>[]</td>
+               <td>
+                  <pre>Successfully created resource &quot;Patient/1/_history/1&quot; in 278ms</pre>
+               </td> 
+            </tr> 
+         </table> 
+      </div>
+   </text>
+   <issue>
+      <severity value="information"/>
+      <code value="informational"/>
+      <diagnostics value="Successfully created resource &quot;Patient/1/_history/1&quot; in 278ms"/>
+   </issue>
+</OperationOutcome>
+2016-11-27 20:23:17.849 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:76] Client request: GET http://localhost:40474/baseDstu2/Patient/1/_history/1 HTTP/1.1
+2016-11-27 20:23:17.852 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:81] Client request headers:
+Accept-Charset: utf-8
+Accept: application/xml+fhir;q=1.0, application/json+fhir;q=1.0
+User-Agent: HAPI-FHIR/2.0 (FHIR Client; FHIR 1.0.2/DSTU2; apache)
+Accept-Encoding: gzip
+2016-11-27 20:23:17.918 [qtp1131645570-14] INFO  ca.uhn.fhir.context.FhirContext [FhirContext.java:196] Creating new FHIR context for FHIR version [DSTU2]
+2016-11-27 20:23:17.965 [qtp1131645570-14] INFO  c.u.f.j.dao.BaseHapiFhirResourceDao [BaseHapiFhirResourceDao.java:780] Processed read on Patient/1/_history/1 in 110ms
+2016-11-27 20:23:18.091 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:102] Client response: HTTP 200 OK
+2016-11-27 20:23:18.092 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:118] Client response headers:
+date: Sun, 27 Nov 2016 20:23:17 GMT
+last-modified: Sun, 27 Nov 2016 20:23:16 GMT
+server: Jetty(9.3.10.v20160621)
+transfer-encoding: chunked
+x-powered-by: HAPI FHIR 2.0 REST Server (FHIR Server; FHIR 1.0.2/DSTU2)
+content-location: http://localhost:40474/baseDstu2/Patient/1/_history/1
+etag: W/"1"
+location: http://localhost:40474/baseDstu2/Patient/1/_history/1
+content-type: application/json+fhir;charset=utf-8
+2016-11-27 20:23:18.093 [main] INFO  c.u.f.r.c.i.LoggingInterceptor [LoggingInterceptor.java:134] Client response body:
+{
+  "resourceType": "Patient",
+  "id": "1",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2016-11-27T20:23:16.577+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"><b>TESTCREATERESOURCECONDITIONAL </b></div><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+  },
+  "name": [
+    {
+      "family": [
+        "testCreateResourceConditional"
+      ]
+    }
+  ]
+}
+2016-11-27 20:23:18.106 [main] INFO  o.e.jetty.server.AbstractConnector [AbstractConnector.java:310] Stopped ServerConnector@498cf1dc{HTTP/1.1,[http/1.1]}{0.0.0.0:40474}
+2016-11-27 20:23:18.117 [main] INFO  / [ContextHandler.java:2162] Destroying Spring FrameworkServlet 'spring'
+2016-11-27 20:23:18.117 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext [AbstractApplicationContext.java:982] Closing WebApplicationContext for namespace 'spring-servlet': startup date [Sun Nov 27 20:23:14 UTC 2016]; parent: Root WebApplicationContext
+2016-11-27 20:23:18.120 [main] INFO  / [ContextHandler.java:2162] Closing Spring root WebApplicationContext
+2016-11-27 20:23:18.120 [main] INFO  o.s.w.c.s.AnnotationConfigWebApplicationContext [AbstractApplicationContext.java:982] Closing Root WebApplicationContext: startup date [Sun Nov 27 20:22:48 UTC 2016]; root of context hierarchy
+2016-11-27 20:23:18.122 [main] INFO  o.s.s.c.ScheduledExecutorFactoryBean [ExecutorConfigurationSupport.java:203] Shutting down ExecutorService 'scheduledExecutorService'
+2016-11-27 20:23:18.232 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:551] Closing JPA EntityManagerFactory for persistence unit 'HAPI_PU'
+2016-11-27 20:23:18.251 [main] INFO  o.e.j.server.handler.ContextHandler [ContextHandler.java:910] Stopped o.e.j.w.WebAppContext@62109320{/,file:///home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example/target/hapi-fhir-jpaserver-example/,UNAVAILABLE}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<div th:fragment="banner" class="well">
+		<th:block th:if="${serverId} == 'home'">
+			<p>
+				This is a <b>Test PUBLIC HEALTH MANAGEMENT FHIR SERVER 1</b>, it is an implementation of the
+				Restful FHIR Server by George Team PURPlE DRAGON Team. This server is Using the
+				<a href="https://github.com/jamesagnew/hapi-fhir">HAPI-FHIR</a>, scripts, which is 
+				a 100% open-source Java implementation of the
+				<a href="http://hl7.org/implement/standards/fhir/">FHIR specification</a>.
+			</p>
+			<p>
+				Here are some things you might wish to try:
+			</p>
+			
+			<ul>
+				<li>
+					View a
+					<a href="http://fhirtest.uhn.ca/search?serverId=home&amp;encoding=json&amp;pretty=true&amp;resource=Patient&amp;param.0.type=string&amp;param.0.name=_id&amp;param.0.0=&amp;resource-search-limit=">list of patients</a>
+					on this server.
+				</li>
+				<li>
+					Construct a
+					<a href="http://fhirtest.uhn.ca/resource?serverId=home&amp;encoding=json&amp;pretty=true&amp;resource=Patient">search query</a>
+					on this server.
+				</li>
+			
+			</ul>
+				
+				<p></p>
+				<b>Purple Dragons' FHIR Servers</b>
+			<ul>	
+				<li>
+					<a href="http://ec2-35-163-169-229.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">Public AGENCY Server</a>
+				</li>
+				<li>
+					<a href="http://ec2-35-164-48-104.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">Public Management Server 2</a>
+				</li>
+				<li>
+					<a href="http://ec2-35-161-74-59.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">Public Management Server 3</a>
+				</li>
+				<li>
+					<a href="http://ec2-35-162-112-117.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">UNMASK Server</a>
+				</li>
+				
+			</ul>
+			
+			
+		</th:block>
+		<th:block th:if="${serverId} != 'home'">
+			<p>
+				You are accessing the public FHIR server
+				<b th:text="${baseName}"/>. This server is hosted elsewhere on the internet
+				but is being accessed using the HAPI client implementation.
+			</p>
+		</th:block>
+		<p>
+			<b style="color: red;">
+				<span class="glyphicon glyphicon-warning-sign"/> 
+				This is a model of a PUBLIC HEALTH MANAGEMENT FHIR SERVER and not a production server!
+			</b> 
+			Do not store any information here that contains personal health information
+			or any other confidential information. This server will be regularly purged 
+			and reloaded with fixed test data. 
+		</p>
+	</div>
+</html>
