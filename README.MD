@@ -98,6 +98,11 @@ The codes for the FHIR App can be found at:
  
 When implementing this solution, all the files/folders found in the above directory should be uploaded to the root directory of your web hosting platform. 
 
+*	FHIR-App Screen shot:
+  ![Agencyserver](Docs/images/fhirapp.png)
+*   Fig 3.1.1: Purple Dragon FHIR App Screen Shot
+
+
 ### 3.2 Agency FHIR Server
 We utilized Amazon EC2 cloud services for the Agency FHIR server, the specifics of the server are:
 
