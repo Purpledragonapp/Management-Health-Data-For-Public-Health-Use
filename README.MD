@@ -17,6 +17,7 @@
   * [3.3 Management FHIR Server One](#3.3-management-fhir-server-one)
   * [3.4 Management FHIR Server Two](#3.4-management-fhir-server-two)
   * [3.5 Management FHIR Server Three](#3.5-management-fhir-server-three)
+  * [3.6 FHIR Servers URL Links](#3.6-fhir-servers-url-links)
 
 
 * [Reference](#reference)
@@ -236,6 +237,23 @@ Implementing Management server three and populating it with FHIR resources, is t
 *	Management Server Three Screen shot:
   ![Managementservertwo](Docs/images/managementserverthree.png)
 
+## 3.6 FHIR Servers URL Links
+As discussed above, we implemented Five FHIR servers and one FHIR Application. To access each of our modeled servers, click on any of the liks below.
+
+Since, this is a model project, the servers might go offline any time.
+
+
+*	<a href="http://www.purpledragonapp.com/test">`FHIR Application`</a>
+
+*	<a href="http://ec2-35-163-169-229.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">`PUBLIC Agency FHIR Server`</a>
+
+*	<a href="http://ec2-35-164-207-196.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">`PUBLIC Management FHIR Server One`</a>
+
+*	<a href="http://ec2-35-164-48-104.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">`PUBLIC Management FHIR Server Two`</a>
+
+*	<a href="http://ec2-35-161-74-59.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">`PUBLIC Management FHIR Server Three`</a>
+
+*	<a href="http://ec2-35-162-112-117.us-west-2.compute.amazonaws.com:8080/hapi-fhir-jpaserver-example/">`MASKING Services FHIR Server`</a>
 
 
 
