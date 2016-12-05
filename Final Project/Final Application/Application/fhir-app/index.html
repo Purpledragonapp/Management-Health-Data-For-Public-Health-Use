@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Purple Dragon</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="/scripts/purpledragon.js"></script>
+		<script src="/scripts/exampleinterface.js"></script>
+		<style>
+			.vert-space {
+				margin: 10px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="page-header">Purple Dragon</h1>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="well">
+						<p>Purple Dragon is a Javascript app built on using the FHIR standards framework. The app provides three main features:</p>
+						<ul>
+							<li><p><strong>Resource aggregation:</strong> The app aims to provide easy aggregation of FHIR resources for a number of clients in a geographical region and provide these resources to a centralized public health agency for analysis.</p></li>
+							<li><p><strong>De-duplication:</strong> Purple Dragon aims to prevent duplication of patient and other resources that may exist in multiple client databases within the region to provide an accurate representation of the region to the public health agency.</p></li>
+							<li><p><strong>Anonymization:</strong> The app also interfaces with patient masking services to provide anonymization of patient resources to protect patient confidentiality when data is passed to organizations outside of the patients' care facilities.</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p><strong>Instructions: </strong>First, choose the client you wish to retrieve resources from. Then for each available resource (Observation, Condition, Medication, and MedicationOrder), enter a comma separated list of resource IDs to send to the public health agency (e.g. '1,2,3'). Click 'Process resources' to initiate the process.</p>
+					<div class="form-group">
+						<label for="clientSelect">Choose a client to work with:</label>
+						<select class="form-control" id="clientSelect">
+							<option>client1</option>
+							<option>client2</option>
+							<option>client3</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="observationList">Observation resources to pull:</label>
+						<textarea class="form-control" id="observationList"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="conditionList">Condition resources to pull:</label>
+						<textarea class="form-control" id="conditionList"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="medicationList">Medication resources to pull:</label>
+						<textarea class="form-control" id="medicationList"></textarea>
+					</div>
+					<div class="form-group">
+						<label for="medicationOrderList">MedicationOrder resources to pull:</label>
+						<textarea class="form-control" id="medicationOrderList"></textarea>
+					</div>
+					
+					<button class="btn btn-sm btn-primary vert-space" id="processButton" style="block">Process Resources</button>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="pageLog1">Activity:</label>
+						<textarea readonly class="form-control vert-space" rows="25" id="pageLog">*** READY ***</textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

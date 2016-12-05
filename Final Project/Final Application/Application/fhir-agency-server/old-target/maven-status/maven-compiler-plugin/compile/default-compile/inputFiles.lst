@@ -1,0 +1,4 @@
+/home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example/src/main/java/ca/uhn/fhir/jpa/demo/JpaServerDemo.java
+/home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example/src/main/java/ca/uhn/fhir/jpa/demo/FhirServerConfigDstu3.java
+/home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example/src/main/java/ca/uhn/fhir/jpa/demo/FhirServerConfig.java
+/home/ubuntu/hapi-fhir-2.0/hapi-fhir-jpaserver-example/src/main/java/ca/uhn/fhir/jpa/demo/FhirTesterConfig.java

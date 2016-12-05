@@ -1,0 +1,34 @@
+<Patient xmlns="http://hl7.org/fhir">
+   <id value="100"/>
+   <meta>
+      <versionId value="1"/>
+      <lastUpdated value="2016-11-28T00:03:51.477+00:00"/>
+   </meta>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <div class="hapiHeaderText">P Paul 
+            <b>HELEN </b>
+         </div>
+         <table class="hapiPropertyTable">
+            <tbody>
+               <tr>
+                  <td>Identifier</td>
+                  <td>1212</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </text>
+   <identifier>
+      <system value="http://acme.org/mrns"/>
+      <value value="1212"/>
+   </identifier>
+   <name>
+      <family value="Helen"/>
+      <given value="P"/>
+      <given value="Paul"/>
+   </name>
+   <gender value="female"/>
+</Patient>
+

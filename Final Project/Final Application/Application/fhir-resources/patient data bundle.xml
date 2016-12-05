@@ -1,0 +1,953 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <type value="transaction"/>
+   <entry>
+      <fullUrl value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <identifier>
+               <system value="http://acme.org/mrns"/>
+               <value value="31189"/>
+            </identifier>
+            <name>
+               <family value="Clement"/>
+               <given value="K"/>
+               <given value="Brandol"/>
+            </name>
+            <gender value="male"/>
+			<birthDate value="1979-08-21"/>
+			<address>
+				<use value ="home"/>
+				<line value="23 Springfield Avenue"/>
+				<city value="Newark"/>
+				<state value="NJ"/>
+				<postalCode value="07101"/>
+			</address>
+         </Patient>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Patient"/>
+      </request>
+   </entry>
+   
+   <entry>
+		<fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<resource>
+			<Observation xmlns="http://hl7.org/fhir">
+				<status value="final"/>
+				<code>
+					<coding>
+					<system value="http://loinc.org"/>
+					<code value="2019-8"/>
+					<display value="Carbon dioxide [Partial pressure] in Arterial blood"/>
+					</coding>
+				</code>
+				<subject>
+					<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+					<display value="Clement K Brandol"/>
+				</subject>
+				<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+				<valueQuantity>
+					<value value="44.0"/>
+					<unit value="mm[Hg]"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="mm[Hg]"/>
+				</valueQuantity>		
+			</Observation>
+		</resource>
+		<request>
+			<method value="POST"/>
+			<url value="Observation"/>
+		</request>
+   </entry>
+   
+   
+   <entry>
+		<fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9d22-3df3a75531189"/>
+		<resource>
+			<Observation xmlns="http://hl7.org/fhir">
+				<status value="final"/>
+				<code>
+					<coding>
+					<system value="http://loinc.org"/>
+					<code value="41806-1"/>
+					<display value="Abdomen CT"/>
+					</coding>
+				</code>	
+				<subject>
+					<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+					<display value="Clement K Brandol"/>
+				</subject>
+				<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+				<valueCodeableConcept>
+					<coding>
+						<system value="OMOP generated"/>
+						<code value="No matching concept"/>
+					</coding>
+				</valueCodeableConcept>			
+			</Observation>
+		</resource>
+		<request>
+			<method value="POST"/>
+			<url value="Observation"/>
+		</request>
+   </entry>
+
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9123-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="41806-1"/>
+         <display value="Abdomen CT"/>
+      </coding>
+   </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+   <valueCodeableConcept>
+      <coding>
+         <system value="OMOP generated"/>
+         <code value="No matching concept"/>
+      </coding>
+   </valueCodeableConcept>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9124-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="30745-4"/>
+                  <display value="Chest X-ray"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+			<valueString value="Hyperinflation, depressed diaphragms"/>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9129-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="29757-2"/>
+                  <display value="Colposcopy study"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+			<valueString value="Atypical cells with wrinkled nuclei, perinuclear halos"/>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9235-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="19945-5"/>
+                  <display value="Gas flow FEV 25%-75% airway"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+            <valueQuantity>
+               <value value="35.0"/>
+               <unit value="%"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="%"/>
+            </valueQuantity>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9435-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="19926-5"/>
+                  <display value="FEV1/FVC"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+            <valueQuantity>
+               <value value="60.0"/>
+               <unit value="%"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="%"/>
+            </valueQuantity>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9d27-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="2019-8"/>
+                  <display value="Carbon dioxide [Partial pressure] in Arterial blood"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+            <valueQuantity>
+               <value value="44.0"/>
+               <unit value="mm[Hg]"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mm[Hg]"/>
+            </valueQuantity>		
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9d33-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="53328-1"/>
+                  <display value="Glucose [Mass/volume] in Urine by Automated test strip"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+            <valueQuantity>
+               <value value="200.0"/>
+               <unit value="mg/dL"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mg/dL"/>
+            </valueQuantity>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9d66-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="4548-4"/>
+                  <display value="Hemoglobin A1c (Glycated)"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+			<valueQuantity>
+				<value value="7.3"/>
+				<unit value="%"/>
+				<system value="http://unitsofmeasure.org"/>
+				<code value="%"/>
+			</valueQuantity>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+   <entry>
+   <fullUrl value="urn:uuid:557709aa8-b3ec-4abc-9116-3df3a75531189"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="56844-4"/>
+                  <display value="Intraocular pressure of Eye"/>
+               </coding>
+			   </code>
+            <subject>
+               <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			   <display value="Clement K Brandol"/>
+            </subject>
+			<effectiveDateTime value="2012-09-11T13:22:00-07:00"/>
+            <valueQuantity>
+               <value value="14.0"/>
+               <unit value="mm[Hg]"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="mm[Hg]"/>
+            </valueQuantity>			
+         </Observation>
+      </resource>
+      <request>
+         <method value="POST"/>
+         <url value="Observation"/>
+      </request>
+   </entry>
+
+
+	<entry>
+      <fullUrl value="urn:uuid:661239aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="46635009"/>
+                  <display value="Type 1 diabetes mellitus"/>
+               </coding>
+               <text value="Type 1 diabetes mellitus, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 46635009"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+   
+  	<entry>
+      <fullUrl value="urn:uuid:661219aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="14669001"/>
+                  <display value="Acute renal failure syndrome"/>
+               </coding>
+               <text value="Acute renal failure syndrome, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 14669001"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661229aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="14669001"/>
+                  <display value="Acute renal failure syndrome"/>
+               </coding>
+               <text value="Acute renal failure syndrome, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 14669001"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661319aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="OMOP generated"/>
+                  <code value="No matching concept"/>
+                  <display value="No matching concept"/>
+               </coding>
+               <text value="No matching concept, OMOP Standardized Vocabularies, No matching concept"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661329aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="46635009"/>
+                  <display value="Type 1 diabetes mellitus"/>
+               </coding>
+               <text value="Type 1 diabetes mellitus, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 46635009"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661349aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="108305003"/>
+                  <display value="Physical rehabilitation therapy procedure"/>
+               </coding>
+               <text value="Physical rehabilitation therapy procedure, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 108305003"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661359aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="46635009"/>
+                  <display value="Type 1 diabetes mellitus"/>
+               </coding>
+               <text value="Type 1 diabetes mellitus, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 46635009"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661369aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="299219007"/>
+                  <display value="Amputated finger"/>
+               </coding>
+               <text value="Amputated finger, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 299219007"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661379aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="299219007"/>
+                  <display value="Amputated finger"/>
+               </coding>
+               <text value="Amputated finger, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 299219007"/>
+            </code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661389aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+	<code>
+      <coding>
+         <system value="http://snomed.info/sct"/>
+         <code value="14669001"/>
+         <display value="Acute renal failure syndrome"/>
+      </coding>
+            <text value="Acute renal failure syndrome, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 14669001"/>
+	</code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+
+	<entry>
+      <fullUrl value="urn:uuid:661399aa8-b3ec-4abc-9d26-3df3a75531189"/>
+      <resource>
+
+	<Condition xmlns="http://hl7.org/fhir">
+		<id value="31189"/>
+	<code>
+      <coding>
+         <system value="http://snomed.info/sct"/>
+         <code value="14669001"/>
+         <display value="Acute renal failure syndrome"/>
+      </coding>
+            <text value="Acute renal failure syndrome, Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO), 14669001"/>
+	</code>
+   <category>
+      <coding>
+         <system value="http://hl7.org/fhir/condition-category"/>
+         <code value="finding"/>
+      </coding>
+   </category>
+   <subject>
+        <reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+		<display value="Clement K Brandol"/>
+    </subject>		
+   <verificationStatus value="confirmed"/>
+   <onsetDateTime value="2006-11-08T00:00:00-05:00"/>
+	</Condition> 
+    </resource>
+   <request>
+       <method value="POST"/>
+       <url value="Condition"/>
+   </request>
+   </entry>
+   
+
+   <entry>
+   <fullUrl value="urn:uuid:777709aa8-b3ec-4abc-9d26-3df3a25531189"/>
+   <resource>
+   
+	<Medication xmlns="http://hl7.org/fhir">
+   <id value="46221250"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221250, 0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin, edu.gatech.i3l.fhir.dstu2.entities.Domain@782b7545, Quant Branded Drug, S, RxNorm, 1607808, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607808"/>
+         <display value="0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin"/>
+      </coding>
+   </code>
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+   
+    <entry>
+   <fullUrl value="urn:uuid:777709aa8-b3ec-4abc-9d26-3df3a15431189"/>
+   <resource>
+   
+   <Medication xmlns="http://hl7.org/fhir">
+   <id value="46221250"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221250, 0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin, edu.gatech.i3l.fhir.dstu2.entities.Domain@6e98b1c5, Quant Branded Drug, S, RxNorm, 1607808, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607808"/>
+         <display value="0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin"/>
+      </coding>
+   </code>
+   
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+  
+    <entry>
+   <fullUrl value="urn:uuid:777719aa8-b3ec-4abc-9d26-3df3a15431189"/>
+   <resource>
+   
+<Medication xmlns="http://hl7.org/fhir">
+   <id value="46221261"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221261, ferric pyrophosphate citrate 5.44 MG/ML [Triferic], edu.gatech.i3l.fhir.dstu2.entities.Domain@60e6b624, Branded Drug Comp, S, RxNorm, 1607988, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607988"/>
+         <display value="ferric pyrophosphate citrate 5.44 MG/ML [Triferic]"/>
+      </coding>
+   </code>
+   
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+ 
+   
+    <entry>
+   <fullUrl value="urn:uuid:777710aa8-b3ec-4abc-9d26-3df3a15431189"/>
+   <resource>
+   
+<Medication xmlns="http://hl7.org/fhir">
+   <id value="46221257"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221257, Triferic, edu.gatech.i3l.fhir.dstu2.entities.Domain@6ed4c26b, Brand Name, null, RxNorm, 1607981, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607981"/>
+         <display value="Triferic"/>
+      </coding>
+   </code>
+   
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+   
+       <entry>
+   <fullUrl value="urn:uuid:777210aa8-b3ec-4abc-9d26-3df3a15431189"/>
+   <resource>
+   
+<Medication xmlns="http://hl7.org/fhir">
+   <id value="46221250"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221250, 0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin, edu.gatech.i3l.fhir.dstu2.entities.Domain@505310b, Quant Branded Drug, S, RxNorm, 1607808, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607808"/>
+         <display value="0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin"/>
+      </coding>
+   </code>
+   
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+  
+       <entry>
+   <fullUrl value="urn:uuid:777310aa8-b3ec-4abc-9d26-3df3a15431189"/>
+   <resource>
+   
+<Medication xmlns="http://hl7.org/fhir">
+   <id value="46221250"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221250, 0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin, edu.gatech.i3l.fhir.dstu2.entities.Domain@5c821df1, Quant Branded Drug, S, RxNorm, 1607808, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607808"/>
+         <display value="0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin"/>
+      </coding>
+   </code>
+   
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+ 
+        <entry>
+   <fullUrl value="urn:uuid:777410aa8-b3ec-4abc-9d26-3df3a15431189"/>
+   <resource>
+   
+<Medication xmlns="http://hl7.org/fhir">
+   <id value="46221250"/>
+   <text>
+      <div xmlns="http://www.w3.org/1999/xhtml">46221250, 0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin, edu.gatech.i3l.fhir.dstu2.entities.Domain@37b972f8, Quant Branded Drug, S, RxNorm, 1607808, 2015-05-04 00:00:00.0, 2099-12-31 00:00:00.0</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+         <code value="1607808"/>
+         <display value="0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.4 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccin"/>
+      </coding>
+   </code>
+   
+		<subject>
+			<reference value="urn:uuid:47709aa8-b3ec-4abc-9d26-3df3a75531189"/>
+			<display value="Clement K Brandol"/>
+		</subject>
+	</Medication>
+
+   </resource>
+    <request>
+       <method value="POST"/>
+       <url value="Medication"/>
+    </request>
+   </entry>
+   
+   
+</Bundle>

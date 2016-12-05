@@ -1,0 +1,4 @@
+ca/uhn/fhir/jpa/demo/FhirServerConfigDstu3.class
+ca/uhn/fhir/jpa/demo/FhirTesterConfig.class
+ca/uhn/fhir/jpa/demo/FhirServerConfig.class
+ca/uhn/fhir/jpa/demo/JpaServerDemo.class
