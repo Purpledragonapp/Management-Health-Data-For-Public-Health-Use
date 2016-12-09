@@ -89,7 +89,7 @@ The following components/servers were implemented:
 The FHIR App was hosted on Godaddy UNIX hosting platform utilizing port 80 for http access. Apart from the standard libraries provided by Godaddy, none other were implemented.
 
 The URL for the FHIR App is:
-http://wwww.purpledragonapp.com/test
+http://www.purpledragonapp.com/
 
 The domain name Purpledragonapp.com was purchased from www.unicpage.com domain name services and redirected to our hosting platform at Godaddy.
 
